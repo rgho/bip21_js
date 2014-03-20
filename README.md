@@ -2,14 +2,13 @@
 
 ### Description
 
-A simple script that BIP21 compliant URI, given bitcoin address and optional label, amount, and message.
-The BIP0021 URI Scheme is described here: #https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki#ABNF_grammar
+A simple script that generates BIP21 compliant URI, given bitcoin address and optional label, amount, and message. The BIP0021 URI Scheme is described here: #https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki#ABNF_grammar
 
 
 ###Usage
 There is only one function:
 
-createBIP21URI(address, label, amount, message)
+createBIP21URI(address, label, amount, message);
 
 The address param is required. Must be valid bitcoin address.
 All other params are optional
