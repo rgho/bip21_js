@@ -11,8 +11,8 @@ There is only one function:
 createBIP21URI(address, label, amount, message);
 
 The address param is required. Must be valid bitcoin address.
-All other params are optional
-Amount must be a number with no commas
+All other params are optional.
+Amount must be a number with no commas.
 
 
 Below is a sample program that prints a bip21 URI, given an address, label, amount in bitcoins, and a message.
